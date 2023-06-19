@@ -93,7 +93,7 @@ public class CadastroProduto extends JFrame {
         labelNome = new JLabel("Nome");
         labelNome.setForeground(Color.black);
         labelNome.setFont(new Font("", Font.BOLD, 14));
-        labelNome.setBounds(new Rectangle(440, 80, 50, 20));
+        labelNome.setBounds(new Rectangle(40, 240, 100, 20));
         return labelNome;
     }
 
@@ -111,7 +111,7 @@ public class CadastroProduto extends JFrame {
         labelCodigoProduto = new JLabel("Código de Produto");
         labelCodigoProduto.setForeground(Color.black);
         labelCodigoProduto.setFont(new Font("", Font.BOLD, 10));
-        labelCodigoProduto.setBounds(new Rectangle(440, 80, 150, 20));
+        labelCodigoProduto.setBounds(new Rectangle(40, 280, 100, 20));
         return labelCodigoProduto;
     }
 
@@ -119,7 +119,7 @@ public class CadastroProduto extends JFrame {
         labelQuantidadeProdutosCadastradosNota = new JLabel("Quantidade de Produtos a ser Cadastrados");
         labelQuantidadeProdutosCadastradosNota.setForeground(Color.black);
         labelQuantidadeProdutosCadastradosNota.setFont(new Font("", Font.BOLD, 10));
-        labelQuantidadeProdutosCadastradosNota.setBounds(new Rectangle(440, 120, 250, 20));
+        labelQuantidadeProdutosCadastradosNota.setBounds(new Rectangle(40, 300, 100, 20));
         return labelQuantidadeProdutosCadastradosNota;
     }
 
@@ -127,7 +127,7 @@ public class CadastroProduto extends JFrame {
         labelPrecoUnitarioProduto = new JLabel("Preço Unitário por Produto");
         labelPrecoUnitarioProduto.setForeground(Color.black);
         labelPrecoUnitarioProduto.setFont(new Font("", Font.BOLD, 10));
-        labelPrecoUnitarioProduto.setBounds(new Rectangle(440, 160, 180, 20));
+        labelPrecoUnitarioProduto.setBounds(new Rectangle(40, 320, 100, 20));
         return labelPrecoUnitarioProduto;
     }
 
@@ -135,7 +135,7 @@ public class CadastroProduto extends JFrame {
         labelTipoProduto = new JLabel("Tipo de Produto");
         labelTipoProduto.setForeground(Color.black);
         labelTipoProduto.setFont(new Font("", Font.BOLD, 10));
-        labelTipoProduto.setBounds(new Rectangle(440, 200, 150, 20));
+        labelTipoProduto.setBounds(new Rectangle(40, 340, 100, 20));
         return labelTipoProduto;
     }
 
@@ -143,7 +143,7 @@ public class CadastroProduto extends JFrame {
         labelVidautil = new JLabel("Vida Útil");
         labelVidautil.setForeground(Color.black);
         labelVidautil.setFont(new Font("", Font.BOLD, 10));
-        labelVidautil.setBounds(new Rectangle(440, 240, 50, 20));
+        labelVidautil.setBounds(new Rectangle(40, 380, 100, 20));
         return labelVidautil;
     }
 
@@ -151,7 +151,7 @@ public class CadastroProduto extends JFrame {
         labelQuantidadeProduto = new JLabel("Quantidade De Produtos");
         labelQuantidadeProduto.setForeground(Color.black);
         labelQuantidadeProduto.setFont(new Font("", Font.BOLD, 10));
-        labelQuantidadeProduto.setBounds(new Rectangle(440, 280, 180, 20));
+        labelQuantidadeProduto.setBounds(new Rectangle(40, 400, 100, 20));
         return labelQuantidadeProduto;
     }
 
